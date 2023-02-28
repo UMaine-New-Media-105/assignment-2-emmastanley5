@@ -1,0 +1,35 @@
+//Assignment 2, Question 4 part 1 
+//Emma Stanley 
+// Flag of Estonia 
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(240);
+  noStroke(0);
+  
+
+// Row 1  
+  fill ("lightskyblue" );
+  rect (0,0,150);
+  square (150,0,150);
+  square (300,0,150);
+  square (450,0,150);
+
+// Row 2 
+   fill ("black");
+    square(0,130, 150);
+   square (150,130,150);
+   square (300,130,150);
+   square (450,130,150);
+ 
+  // Row 3 
+  fill ("white");
+  square (0,270, 150);
+  square (150,270,150);
+  square (300,270,150);
+  square (440,270,200);
+ 
+  
+}
