@@ -1,0 +1,36 @@
+//Assignment 2, Question 4 part 2 
+//Emma Stanley 
+// Flag of Sweden  
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background("blue");
+  noStroke();
+
+
+// Row 1  
+  // Line going down 
+  fill ("gold" );
+  square (200,0,70);
+  square (200,70,70);
+  square (200,140,70);
+  square (200,240,70);
+  square (200,300,70);
+  square (200,350,70);
+  
+  //Row 2 
+  //line going across 
+  square (0,170,70);
+  square (70,170,70);
+  square (140,170,70);
+  square (210,170,70);
+  square (280,170,70);
+  square (350,170,70);
+  square (420,170,70);
+  square (490,170,70);
+  square (550,170,70);
+  
+  
+}
