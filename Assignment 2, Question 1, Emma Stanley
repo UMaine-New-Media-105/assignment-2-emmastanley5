@@ -1,0 +1,81 @@
+//Assignment 2, Question 1
+//Emma Stanley 
+let y = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  stroke("black");
+  //functions for each row of squares 
+  topR();
+  
+  midR1();
+
+  midR2();
+
+  midR3();
+
+  botR();
+}
+//functions for my colors 
+function palevioletredS() {
+   fill("palevioletred"); 
+  
+    }
+function aquaS() {
+  fill("aqua")
+}
+// Row 1 
+function topR(){
+   background(220);
+  aquaS();
+  rect(0, y, 80, 80);
+  rect(80, y, 80, 80);
+  rect(160, y, 80, 80);
+  rect(240, y, 80, 80);
+   palevioletredS();
+  rect(320, y, 80, 80);
+}
+//Row 2 
+function midR1(){
+ aquaS();
+  rect(y, 80, 80, 80);
+   palevioletredS();
+  rect(80, 80, 80, 80);
+  rect(160, 80, 80, 80);
+  rect(240, 80, 80, 80);
+  rect(320, 80, 80, 80);
+}
+//Row 3 
+function midR2 (){
+   aquaS();
+  rect(y, 160, 80, 80);
+  rect(80, 160, 80, 80);
+  rect(160, 160, 80, 80);
+   palevioletredS();
+  rect(240, 160, 80, 80);
+  rect(320, 160, 80, 80);
+}
+//Row 4
+function midR3(){
+   aquaS();
+  rect(y, 240, 80, 80);
+     palevioletredS();
+  rect(80, 240, 80, 80);
+  rect(160, 240, 80, 80);
+  rect(240, 240, 80, 80);
+  rect(320, 240, 80, 80);
+}
+//Row 5
+function botR(){
+  aquaS();
+  rect(y, 320, 80, 80);
+  rect(80, 320, 80, 80);
+  rect(160, 320, 80, 80);
+  rect(240, 320, 80, 80);
+  palevioletredS();
+  rect(320, 320, 80, 80);
+  
+}
