@@ -1,0 +1,46 @@
+//Assignment 2 Question 3
+//Emma Stanley 
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background();
+}
+function draw() {
+  background(220);
+doritosChip(0, 0, 0.3);  //function being used 
+doritosChip(100, 50,0.6);
+doritosChip(150,230, 0.5);
+doritosChip(300,100, 0.5);
+doritosChip(0,300, 0.7);
+doritosChip(0,100,0.3);
+doritosChip(250,0,0.5);
+doritosChip(200,0,0.4);
+doritosChip(260,200,0.6);
+doritosChip(0,200,0.5);
+doritosChip(100,0,0.3);
+  
+ 
+}
+function doritosChip (x, y, s) {
+  push();
+  translate(x, y) //position of chip
+  scale(s) //size of square 
+  fill("lightseagreen");
+  
+  beginShape(); //begin square
+ vertex(20, 20);
+  vertex(380, 20);
+  vertex(380, 380);
+  vertex(20, 380);
+  endShape(CLOSE); //end square
+  
+  fill("orange");
+  beginShape() //begin triangle
+   vertex(200, 20);
+  vertex(30, 30);
+  vertex(380, 360);
+  endShape(CLOSE); //end triangle
+ pop();
+}
